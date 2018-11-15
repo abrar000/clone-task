@@ -13,6 +13,7 @@ body{
 }
 .navbar-header >ul{
     display: flex;
+    
     list-style-type: none;
     line-height: 0.2rem;
     
@@ -161,10 +162,14 @@ body{
         flex-direction: column;
         align-items: center;
     }
-    .navbar-wrapper ul{
+    .navbar-header ul{
         flex-direction: column;
         align-items: center;
     }
+    
+    
+
+    
     .container-wrapper{
         display: flex;
         flex-wrap: wrap;
