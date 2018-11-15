@@ -52,7 +52,8 @@ body{
     font-weight: 900;
     /* font-family:'raleway'; */
     display: inline-flex;
-    padding-left: 0.5rem;
+    padding-left: 2.5rem;
+    padding-top: 1rem;
 }
 
 .latest-news:hover{
@@ -63,11 +64,15 @@ body{
 
 .grid-boxes-row1{
     display: flex;
+    justify-content: space-evenly;
+    margin: 1rem 2rem;
 }
 
 
 .grid-boxes-row2{
     display: flex;
+    justify-content: space-evenly;
+    margin: 1rem 2rem;
 }
 
 .grid-boxes-row1 .box{
@@ -161,12 +166,13 @@ body{
     .grid-boxes-row1{
         flex-direction: column;
         flex-basis: 10rem;
+        justify-content: center;
     
     } 
     .grid-boxes-row2{
         flex-direction: column;
         flex-basis: 10rem;
-       /* justify-content: center; */
+       justify-content: center;
     }
 
  }
