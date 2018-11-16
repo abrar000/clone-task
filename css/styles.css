@@ -13,17 +13,13 @@ body{
 }
 .navbar-header >ul{
     display: flex;
-    
     list-style-type: none;
     line-height: 0.2rem;
-    
 }
 
 .header-logo img{
     display:flex;
     width: 8rem;
-    
-   
 }
 
 .navbar-header >ul li{
@@ -37,8 +33,7 @@ body{
 
 
 .navbar-header >ul li:hover{
-   
-    padding:1rem;
+   padding:1rem;
     color: rgba(0, 0, 0, 0.692);
     cursor: pointer;
 }
@@ -46,22 +41,20 @@ body{
 
 #container{
     display: flex;
+    height: 100vh;
 }
 
 #container .container-wrapper{
     width: 90%;
     margin: auto;
-  
 }
 
 .latest-news{
     color: rgb(248, 78, 78);
     font-size: 1.7rem;
     font-weight: 900;
-    /* font-family:'raleway'; */
     display: inline-flex;
-    padding-left: 2.5rem;
-    padding-top: 4rem;
+    padding-left: 4rem;
 }
 
 .latest-news:hover{
@@ -90,7 +83,6 @@ body{
 
 .grid-boxes-row1 .box p{
     font-size: 1rem;
-    /* font-family: 'raleway'; */
     font-weight: bold;
 }
 
@@ -107,6 +99,11 @@ body{
     font-size: 0.8rem;
 }
 
+.grid-boxes-row1 .box p1{
+    font-size: 0.8rem;
+    color:rgba(0, 0, 0, 0.555);
+}
+
 .grid-boxes-row1 .box span:hover{
     color: rgba(0, 0, 0, 0.76);
     cursor: pointer;
@@ -119,7 +116,6 @@ body{
 
 .grid-boxes-row2 .box p{
     font-size: 1rem;
-    /* font-family: inherit; */
     font-weight: bold;
 }
 
@@ -136,21 +132,29 @@ body{
     font-size: 0.8rem;
 }
 
+
+.grid-boxes-row2 .box p1{
+    font-size: 0.8rem;
+    color:rgba(0, 0, 0, 0.555);
+}
+
 .grid-boxes-row2 .box span:hover{
     color: rgba(0, 0, 0, 0.787);
 }
 
 .grid-boxes-row1 .box img{
    height:7rem ;
-   width: 17rem;
+   width: 15rem;
 }
+
+
 .grid-boxes-row1 .box img:hover{
     cursor: pointer;
 }
 
 .grid-boxes-row2 .box img{
    height:7rem ;
-   width: 17rem;
+   width: 15rem;
 }
 
 .grid-boxes-row2 .box img:hover{
@@ -165,11 +169,7 @@ body{
     .navbar-header ul{
         flex-direction: column;
         align-items: center;
-    }
-    
-    
-
-    
+    }   
     .container-wrapper{
         display: flex;
         flex-wrap: wrap;
@@ -188,87 +188,55 @@ body{
     }
 
  }
+
+    
+    
 @media all and (max-width:800px){
     .nav-header{
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        /* align-items: center; */
+        justify-content: space-evenly;
     } 
     .navbar-wrapper {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        /* align-items: center; */
+        justify-content: space-evenly;
+      
     }
     .container-wrapper{
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-evenly;
     }
+    
     .grid-boxes-row1{
         display: flex;
         flex-wrap: wrap;
-        /* align-items: center; */
-        justify-content: center;
+        justify-content: space-evenly;
     }
     .grid-boxes-row2{
         display: flex;
         flex-wrap: wrap;
-        /* align-items: center; */
-        justify-content: center;
+        justify-content: space-evenly;
     }
 }
 
-@media all and (max-width:900px){
-    .nav-header{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        /* align-items: center; */
-    } 
-    .navbar-wrapper {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        /* align-items: center; */
-    }
-    .container-wrapper{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .grid-boxes-row1{
-        display: flex;
-        flex-wrap: wrap;
-        /* align-items: center; */
-        justify-content: center;
-    }
-    .grid-boxes-row2{
-        display: flex;
-        flex-wrap: wrap;
-        /* align-items: center; */
-        justify-content: center;
-    }
-}
+
 
 @media all and (max-width:1200px){
     .nav-header{
         display: flex;
         flex-wrap: wrap;
-        /* justify-content: space-between; */
         align-items: center;
     } 
     .navbar-wrapper {
         display: flex;
         flex-wrap: wrap;
-        /* justify-content: space-between; */
         align-items: center;
     }
     .container-wrapper{
         display: flex;
         flex-wrap: wrap;
-        /* justify-content: space-between; */
         align-items: center;
     }
     .grid-boxes-row1{
@@ -276,14 +244,13 @@ body{
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-evenly;
-        /* justify-content: space-between; */
+       
     }
     .grid-boxes-row2{
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-evenly;
-        /* justify-content: space-between; */
     }
 }
 
